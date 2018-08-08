@@ -22,95 +22,17 @@
     <!-- TODO Convert menu to simple 2 button setup -->
 
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">joshuaho.me</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#">Say Hello</a>
-          <a class="nav-item nav-link" href="https://server223.web-hosting.com:2083/">Login</a>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Title -->
-
-    <div class="container intro">
-      <h2>Front-end Developer, Digital Marketing Consultant & Small-Business Lover</h2>
-      <h5>I love working with small buisness owners to help them accomplish their goals</h5>
-    </div>
-
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-
-    <div class="container hello">
-      <h3>Hi I'm Josh. Glad to meet you.</h3>
-      <p>Three years ago I completed the CodeFellows JavaScript
-      bootcamp for Front End development.  Since, I've worked a variety of jobs
-      in the field: I moonlighted as a freelance developer and spent two years as
-      a digital marketing consultant. In all my jobs, my love for learning new
-      technologies and my education as a business student has shone through.
-      I love collaborating with talented people to create digital solutions for
-      e-commerce clients. I am naturally curious and creative,
-      people oriented, and always looking to improve my skills.</p>
-    </div>
-    <!-- Dream is to have overview appear when projects are clicked, displaying
-    information about my work on the project -->
-    <div class="container recent-work ">
-      <h2>My Recent Work</h2>
-
-    </div>
-    <footer class="container-fluid footer">
-      <!-- TODO: Add social: LinkedIn, Github -->
-      <span>Let's chat.  Email me at ho.joshua4@gmail.com, or use the <a href="#/contact">contact page</a></span>
-    </footer>
-
-
-
-
-    <!-- <main class="container main" id="app">
-      <p>{{ message }}</p>
-      <p>There he goes, building websites!</p>
-
-      <div id="app-2">
-        <span v-bind:title="message">
-          Hover your mouse over me for a few seconds
-          to see my dynamically bound title!
-        </span>
-      </div>
-    </main>
-    <footer>
-      <div class="container footer">
-
-      </div>
-    </footer> -->
-    <!-- Include JS -->
-  </body>
+  <div id="app">
+    <vue-header></vue-header>
+    <vue-intro></vue-intro>
+    <vue-hello></vue-hello>
+    <vue-recent></vue-recent>
+    <vue-footer></vue-footer>
+  </div>
   <script src="./js/index.js" charset="utf-8"></script>
   <script type="text/javascript">
-    // let app = new Vue({
-    //   el: '#app',
-    //   data: {
-    //     message: 'Hello Vue!'
-    //   }
-    // })
-    //
-    // var app2 = new Vue({
-    //   el: '#app-2',
-    //   data: {
-    //     message: 'You loaded this page on ' + new Date().toLocaleString()
-    //   }
-    // })
-</script>
+    new Vue({
+      el: '#app'
+    })
+  </script>
 </html>
