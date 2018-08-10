@@ -22,22 +22,57 @@
     <!-- TODO Convert menu to simple 2 button setup -->
 
   </head>
-  <div id="app">
-    <vue-header></vue-header>
-    <vue-intro></vue-intro>
-    <vue-hello></vue-hello>
-    <vue-portfolio>
-      <vue-portfolio-card></vue-portfolio-card>
-      <vue-portfolio-card></vue-portfolio-card>
-      <vue-portfolio-card></vue-portfolio-card>
-      <vue-portfolio-card></vue-portfolio-card>
-    </vue-portfolio>
-    <vue-footer></vue-footer>
-  </div>
+  <body>
+    <div id="app">
+      <!-- <vue-header></vue-header> -->
+      <div style="background-color: transparent;">
+        <vue-intro></vue-intro>
+      </div>
+      <!-- <vue-intro></vue-intro> -->
+      <!-- <vue-hello></vue-hello>
+      <vue-portfolio></vue-portfolio>
+      <div id="portfolio">
+        <vue-portfolio-card
+          v-for="item in projectList"
+          v-bind:todo="item"
+          v-bind:key="item.id"
+        ></vue-portfolio-card>
+      </div>
+      <vue-footer></vue-footer> -->
+    </div>
+  </body>
   <script src="./js/index.js" charset="utf-8"></script>
   <script type="text/javascript">
-    new Vue({
-      el: '#app'
-    })
+
+  // var portfolioApp = new Vue({
+  //   el: '#portfolio',
+  //   data: {
+  //     projectList: [
+  //       {
+  //         id: 0,
+  //         title: "Explore Consulting",
+  //         description: ""
+  //       },
+  //       {
+  //         id: 1,
+  //         title: "Joe Rogan Experience",
+  //         description: ""
+  //       },
+  //       {
+  //         id: 2,
+  //         title: "Spotted Cow Coffee Shop",
+  //         description: ""
+  //       },
+  //     ]
+  //   }
+  //
+  // })
+
+//Main app
+  var app = new Vue({
+    el: '#app'
+  })
+
+
   </script>
 </html>

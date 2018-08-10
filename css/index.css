@@ -1,10 +1,11 @@
-*{
-  border: 1px solid black;
+html {
+  background: url(../images/hero.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-.header{
-
-}
 .footer {
   /* position: absolute; */
   bottom: 0;
@@ -12,4 +13,14 @@
   height: 60px;
   line-height: 60px;
   background-color: #f5f5f5;
+}
+
+body{
+  background-color: transparent
+}
+
+
+#intro-container{
+  text-align: center;
+  padding: 18% 15%
 }

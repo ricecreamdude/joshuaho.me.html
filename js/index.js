@@ -25,22 +25,16 @@ Vue.component('vue-header', {
 
 Vue.component('vue-intro', {
   template: `
-    <div class="container-fluid intro" v-bind:style="heroStyle">
-      <h1>Front-end Developer, Digital Marketing Consultant & Small-Business Lover</h1> <br />
-      <h5>I love working with small buisness owners to help them accomplish their goals</h5>
+    <div id="intro-container">
+      <span v-bind:style='styleHeroText'>Hi, I'm Josh. I'm a full-stack web developer.</span>
     </div>
   `,
   data: () => {
     return {
-      heroStyle: {
-        backgroundImage: 'url("./images/hero.jpeg")',
-        height: '80%',
-        textAlign: 'center',
-        padding: '200px 15%',
-        margin: '0'
-      },
-      heroText: {
-
+      styleHeroText: {
+        fontSize: '4.5em',
+        fontWeight: 'bold',
+        color: 'black'
       }
     }
   }
@@ -84,15 +78,16 @@ Vue.component('vue-portfolio', {
 });
 
 Vue.component('vue-portfolio-card', {
+  props: ['todo'],
   template: `
     <div class="col-sm" v-bind:style="cardStyle">
-      <h1>I AM A PROJECT</h1>
+      <h1>{{todo.title}}</h1>
+      <p>{{todo.description}}</p>
     </div>
   `,
   data: ()=>{
     return {
       cardStyle: {
-
       }
     }
   }
@@ -105,3 +100,15 @@ Vue.component('vue-footer', {
     </footer>
   `
 });
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+
+Vue.component('todo-item', {
+  props: ['todo'],
+  template: '<li>{{ todo.text }}</li>'
+})
