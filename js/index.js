@@ -39,10 +39,11 @@ Vue.component('vue-intro', {
     }
   }
 });
+
 Vue.component('vue-hello', {
   template: `
     <div class="container-fluid hello" v-bind:style="helloStyle">
-        <h3>Hi I'm Josh. Glad to meet you.</h3>
+        <h1>Hi I'm Josh. Glad to meet you.</h1>
         <span>Three years ago I completed the CodeFellows JavaScript
         bootcamp for Front End development.  Since, I've worked a variety of jobs
         in the field: I moonlighted as a freelance developer and spent two years as
@@ -57,7 +58,8 @@ Vue.component('vue-hello', {
     return {
       helloStyle: {
         textAlign: 'center',
-        padding: '200px 15%'
+        padding: '150px 15%',
+        backgroundColor: 'white'
       }
     }
   }
@@ -65,13 +67,14 @@ Vue.component('vue-hello', {
 Vue.component('vue-portfolio', {
   template: `
     <div class="container" v-bind:style="portfolioStyle">
-      <h2>My Recent Work</h2>
+      <h1>My Recent Work</h1>
     </div>
   `,
   data: ()=>{
     return{
       portfolioStyle:{
-          textAlign: 'center'
+          textAlign: 'center',
+          padding:  '10% 0px'
       }
     }
   }
@@ -80,21 +83,28 @@ Vue.component('vue-portfolio', {
 Vue.component('vue-portfolio-card', {
   props: ['todo'],
   template: `
-    <div class="col-sm" v-bind:style="cardStyle">
-      <h1>{{todo.title}}</h1>
+    <div class="col-sm" v-bind:style="cardStyle" href="{{todo.link}}">
+      <h3>{{todo.title}}</h3>
       <p>{{todo.description}}</p>
     </div>
   `,
   data: ()=>{
     return {
       cardStyle: {
+        float: "left",
+        width: "32%",
+        height: "150px",
+        textAlign: "center",
+        backgroundColor: "white",
+        padding: "20px 0px",
+        margin: "5px 5px"
       }
     }
   }
 })
 Vue.component('vue-footer', {
   template: `
-    <footer class="container-fluid footer">
+    <footer class="container-fluid footer" >
       <!-- TODO: Add social: LinkedIn, Github -->
       <span>Let's chat.  Email me at ho.joshua4@gmail.com, or use the <a href="#/contact">contact page</a></span>
     </footer>
@@ -106,9 +116,3 @@ Vue.component('vue-footer', {
 
 
 ///////////////////////////////////////////////////////////////////////////////////////
-
-
-Vue.component('todo-item', {
-  props: ['todo'],
-  template: '<li>{{ todo.text }}</li>'
-})

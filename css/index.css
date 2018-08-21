@@ -20,7 +20,14 @@ body{
 }
 
 
+/* Custom Styles */
 #intro-container{
   text-align: center;
-  padding: 18% 15%
+  padding: 18% 15%;
+}
+
+#portfolio{
+  padding: 0px 10%;
+  margin: 0px auto;
+  height: 350px;
 }

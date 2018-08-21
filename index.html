@@ -25,11 +25,8 @@
   <body>
     <div id="app">
       <!-- <vue-header></vue-header> -->
-      <div style="background-color: transparent;">
-        <vue-intro></vue-intro>
-      </div>
-      <!-- <vue-intro></vue-intro> -->
-      <!-- <vue-hello></vue-hello>
+      <vue-intro></vue-intro>
+      <vue-hello></vue-hello>
       <vue-portfolio></vue-portfolio>
       <div id="portfolio">
         <vue-portfolio-card
@@ -38,35 +35,41 @@
           v-bind:key="item.id"
         ></vue-portfolio-card>
       </div>
-      <vue-footer></vue-footer> -->
+      <vue-footer></vue-footer>
     </div>
   </body>
   <script src="./js/index.js" charset="utf-8"></script>
   <script type="text/javascript">
 
-  // var portfolioApp = new Vue({
-  //   el: '#portfolio',
-  //   data: {
-  //     projectList: [
-  //       {
-  //         id: 0,
-  //         title: "Explore Consulting",
-  //         description: ""
-  //       },
-  //       {
-  //         id: 1,
-  //         title: "Joe Rogan Experience",
-  //         description: ""
-  //       },
-  //       {
-  //         id: 2,
-  //         title: "Spotted Cow Coffee Shop",
-  //         description: ""
-  //       },
-  //     ]
-  //   }
-  //
-  // })
+  var portfolioApp = new Vue({
+    el: '#portfolio',
+    data: {
+      projectList: [
+        {
+          id: 0,
+          title: "Dr. Bowyer",
+          description: "Copied and installed Wordpress  site for Dr Bowyer dentist. ",
+          link: "https://www.drbowyer.com/",
+          thumbnail: ""
+        },
+        {
+          id: 1,
+          title: "Joe Rogan Experience",
+          description: "",
+          link: "https://www.google.com/",
+          thumbnail: ""
+        },
+        {
+          id: 2,
+          title: "Spotted Cow Coffee Shop",
+          description: "",
+          link: "https://www.facebook.com/",
+          thumbnail: ""
+        },
+      ]
+    }
+
+  })
 
 //Main app
   var app = new Vue({
