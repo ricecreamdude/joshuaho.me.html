@@ -1,3 +1,7 @@
+/* ===================================================== */
+/* ===================  General Style  ===============*/
+/* ===================================================== */
+
 html {
   background: url(../images/hero.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -31,3 +35,25 @@ body{
   margin: 0px auto;
   height: 350px;
 }
+
+/* ==================================================== */
+/* =================  Social Media Icons ==============*/
+/* ==================================================== */
+#icon-github{}
+
+#icon-linkedin{}
+
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { ... }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }

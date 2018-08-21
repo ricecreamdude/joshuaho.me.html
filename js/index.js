@@ -43,7 +43,7 @@ Vue.component('vue-intro', {
 Vue.component('vue-hello', {
   template: `
     <div class="container-fluid hello" v-bind:style="helloStyle">
-        <h1>Hi I'm Josh. Glad to meet you.</h1>
+        <h1>Glad to meet you.</h1>
         <span>Three years ago I completed the CodeFellows JavaScript
         bootcamp for Front End development.  Since, I've worked a variety of jobs
         in the field: I moonlighted as a freelance developer and spent two years as
@@ -104,11 +104,29 @@ Vue.component('vue-portfolio-card', {
 })
 Vue.component('vue-footer', {
   template: `
-    <footer class="container-fluid footer" >
-      <!-- TODO: Add social: LinkedIn, Github -->
+  <footer class="container-fluid footer row" v-bind:style="footerStyle" >
+    <!-- TODO: Add social: LinkedIn, Github -->
+    <div class="col-10">
       <span>Let's chat.  Email me at ho.joshua4@gmail.com, or use the <a href="#/contact">contact page</a></span>
-    </footer>
-  `
+    </div>
+    <div class="col-2">
+      <a href="https://github.com/ricecreamdude" id="icon-github" class="icon-social" target="_blank">
+        <img src="./images/GitHub-Mark-32px.png" alt="">
+      </a>
+      <a href="https://www.linkedin.com/in/joshua-ho-80b6a251/" id="icon-linkedin" class="icon-social" target="_blank">
+        <img src="./images/In-Black-34px-R.png" alt="">
+      </a>
+    </div>
+  </footer>
+  `,
+  data: () => {
+    return{
+      footerStyle:{
+        width: "100%",
+        margin: "0px"
+      }
+    }
+  }
 });
 
 ///////////////////////////////////////////////////////////////////////////////////////
