@@ -43,16 +43,40 @@ body{
 
 #icon-linkedin{}
 
-  /* ==================================================== */
-  /* ======================  Portfolio  ================= */
-  /* ==================================================== */
+/* ==================================================== */
+/* ======================  Portfolio  ================= */
+/* ==================================================== */
 
 .thumb-portfolio{
   height: 250px;
   padding: 0px 5px;
   border-radius: 13px;
+  width: 100%
 }
 
+
+/* ==================================================== */
+/* ======================  ABOUT  ================= */
+/* ==================================================== */
+
+.abt-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.abt-text {
+  margin: 20px 0;
+}
+
+.abt-skillTitle {
+  padding: 10px 0px;
+  font-weight: bold;
+}
+
+.abt-skillList {
+  list-style-type: none;
+  padding: 0;
+}
 
 /* // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */

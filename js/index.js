@@ -82,7 +82,7 @@ Vue.component('vue-about', {
   template: `
   <div>
   <div class="container-fluid hello" v-bind:style="helloStyle">
-      <h1>Glad to meet you.</h1>
+      <h1>Thanks for stopping by</h1>
       <span>Three years ago I completed the CodeFellows JavaScript
       bootcamp for Front End development.  Since, I've worked a variety of jobs
       in the field: I moonlighted as a freelance developer and spent two years as
@@ -92,14 +92,30 @@ Vue.component('vue-about', {
       e-commerce clients. I am naturally curious and creative,
       people oriented, and always looking to improve my skills.</span>
   </div>
-  <div class="container" v-bind:style="helloStyle">
+  <div class="container" v-bind:style="aboutStyle">
     <div class="row">
       <div class="col-sm">
-        <div class="abt-title">Thing I Do</div>
-        <div class="abt-text">One of three columns</div>
-        <div class="abt-skillTitle">My Skills</div>
+        <div class="abt-title">Web Developer</div>
+        <div class="abt-text">I build websites from scratch and love watching
+        web pages come to life  </div>
+        <div class="abt-skillTitle">Languages I Speak:</div>
+        <div>JavaScript, CSS, HTML, SQL</div>
+        <div class="abt-skillTitle">Dev Tools:</div>
         <ul class="abt-skillList">
-          <li> Skill 1</li>
+          <li>Atom</li>
+          <li>GitHub</li>
+          <li>Bootstrap</li>
+          <li>Terminal</li>
+          <li>Git Bash</li>
+        </ul>
+      </div>
+      <div class="col-sm">
+        <div class="abt-title">Consultant</div>
+        <div class="abt-text">I can work closely with clients and provide advice
+        based on business needs</div>
+        <div class="abt-skillTitle">My Experience:</div>
+        <ul class="abt-skillList">
+          <li> </li>
           <li> Here's Another Skill</li>
           <li> Skill Three</li>
           <li> $k1LL F0UR</li>
@@ -110,18 +126,16 @@ Vue.component('vue-about', {
         </ul>
       </div>
       <div class="col-sm">
-        <div class="abt-title">Thing I Do</div>
-        <div class="abt-text">One of three columns</div>
-        <div class="abt-skillTitle">My Skills</div>
+        <div class="abt-title">Digital Marketing Techie</div>
+        <div class="abt-text">I install ecommerce tools
+        tools to help grow business</div>
+        <div class="abt-skillTitle">My Experience:</div>
         <ul class="abt-skillList">
-          <li> Skill 1</li>
-          <li> Here's Another Skill</li>
-          <li> Skill Three</li>
-          <li> $k1LL F0UR</li>
-          <li> Skill 5</li>
-          <li> Here's Another Skill</li>
-          <li> Skill Six</li>
-          <li> $k1LL S373N</li>
+          <li> Google Tag Manager</li>
+          <li> Facebook Marketing</li>
+          <li> Google Merchant Product Feeds</li>
+          <li> Google Analytics</li>
+          <li> AdRoll</li>
         </ul>
       </div>
     </div>
@@ -134,6 +148,11 @@ Vue.component('vue-about', {
         textAlign: 'center',
         padding: '150px 15%',
         backgroundColor: 'white'
+      },
+      aboutStyle: {
+        textAlign: 'center',
+        padding: '130px 0px',
+        border: '1px solid black'
       }
     }
   }
@@ -155,12 +174,12 @@ Vue.component('vue-portfolio', {
 });
 
 Vue.component('vue-portfolio-card', {
-  props: ['todo'],
+  props: ['project'],
   template: `
-    <div class="col-sm" v-bind:style="cardStyle" href="{{todo.link}}">
+    <div class="col-sm" v-bind:style="cardStyle" href="{{project.link}}">
 
-      <h3>{{todo.title}}</h3>
-      <p>{{todo.description}}</p>
+      <h3>{{project.title}}</h3>
+      <p>{{project.description}}</p>
     </div>
   `,
   data: ()=>{
