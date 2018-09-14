@@ -20,7 +20,8 @@ html {
 }
 
 body{
-  background-color: transparent
+  background-color: transparent;
+  line-height: 1.5em;
 }
 
 
@@ -34,6 +35,10 @@ body{
   padding: 0px 10%;
   margin: 0px auto;
   height: 350px;
+}
+
+#hello-container{
+  /* background-color:#4286f4; */
 }
 
 /* ==================================================== */

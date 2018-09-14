@@ -28,23 +28,35 @@ Vue.component('vue-header', {
               </div>
               <div class="modal-body">
                 <div class="">
-                  Feel free to contact me for project inquries, collaborations, or
-                  just to say hellox
+                  Feel free to contact me for employment opportunities, job inquries, collaborations, or
+                  just to say hello.
                 </div>
                 <br />
-                <div class="">
-                  Name:<input type="text" name="" value="">
-                </div>
-                <div class="">
-                  E-mail:<input type="text" name="" value="">
-                </div>
-                <div class="">
-                  Message:<input type="text" name="" value="">
-                </div>
+                <form class="" action="index.html" method="post">
+                  <!-- TO DO -->
+                  <!-- Add Captcha -->
+                  <!-- Link Modal to my email -->
+                  <div class="form-group">
+                    <label for="inputName">Name</label>
+                    <input class="form-control" type="text" id="inputName">
+                  </div>
+                  <div class="form-group">
+                    <label for="inputEmail">Email</label>
+                    <input class="form-control" type="text" id="inputEmail">
+                  </div>
+                  <div class="form-group">
+                    <label for="inputMessage">Message</label>
+                    <textarea class="form-control" rows="4" id="inputMessage"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <small>Humans only please</small>
+                  </div>
+                </form>
+
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-primary">Send</button>
               </div>
             </div>
           </div>
@@ -81,8 +93,9 @@ Vue.component('vue-intro', {
 Vue.component('vue-about', {
   template: `
   <div>
-  <div class="container-fluid hello" v-bind:style="helloStyle">
+  <div class="container-fluid" id="hello-container" v-bind:style="helloStyle">
       <h1>Thanks for stopping by</h1>
+      <br/>
       <span>Three years ago I completed the CodeFellows JavaScript
       bootcamp for Front End development.  Since, I've worked a variety of jobs
       in the field: I moonlighted as a freelance developer and spent two years as
@@ -93,7 +106,7 @@ Vue.component('vue-about', {
       people oriented, and always looking to improve my skills.</span>
   </div>
   <div class="container" v-bind:style="aboutStyle">
-    <div class="row">
+    <div class="row" style="margin-top:-50px;">
       <div class="col-sm">
         <div class="abt-title">Web Developer</div>
         <div class="abt-text">I build websites from scratch and love watching
@@ -127,8 +140,8 @@ Vue.component('vue-about', {
       </div>
       <div class="col-sm">
         <div class="abt-title">Digital Marketing Techie</div>
-        <div class="abt-text">I install ecommerce tools
-        tools to help grow business</div>
+        <div class="abt-text">I install ecommerce tools to help businesses
+        grow their online pressence</div>
         <div class="abt-skillTitle">My Experience:</div>
         <ul class="abt-skillList">
           <li> Google Tag Manager</li>
@@ -146,13 +159,18 @@ Vue.component('vue-about', {
     return {
       helloStyle: {
         textAlign: 'center',
-        padding: '150px 15%',
-        backgroundColor: 'white'
+        padding: '150px 15% 350px 15%',
+        backgroundColor: '#5e9af9',
+        color: 'white'
       },
       aboutStyle: {
         textAlign: 'center',
         padding: '130px 0px',
-        border: '1px solid black'
+        border: '0.5px solid #5e9af9',
+        borderRadius: '25px',
+        marginTop: '-200px',
+        backgroundColor: 'white'
+
       }
     }
   }
@@ -161,6 +179,7 @@ Vue.component('vue-portfolio', {
   template: `
     <div class="container" v-bind:style="portfolioStyle">
       <h1>Projects I've Worked On</h1>
+      <p>Here are some of the websites I helped create</p>
     </div>
   `,
   data: ()=>{
