@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Joshua Ho's Profile Page</title>
+
+    <!-- Include Scripts -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <!-- Custom Styling -->
+    <link rel="stylesheet" href="./css/index.css">
+
+    <!-- TODO Contact Form -->
+    <!-- TODO: Contact Form JavaScript -->
+    <!-- TODO Build Footer -->
+        <!-- Add Animations to logos.
+            Also add email and copyright. -->
+    <!-- TODO Portfolio App -->
+      <!-- Upgrade display to match Matt Farley's design - Image with text on
+           overlay -->
+    <!-- TODO Mobile Styling -->
+    <!-- TODO Convert menu to simple 2 button setup -->
+
+  </head>
+  <body>
+    <div id="app">
+      <vue-header></vue-header>
+      <vue-intro></vue-intro>
+      <vue-about></vue-about>
+      <vue-portfolio></vue-portfolio>
+      <div id="portfolio">
+        <div class="row">
+            <!-- <vue-portfolio-card v-for="project in projectList"></vue-portfolio-card> -->
+            <div class="col-sm  col-4" v-for="project in projectList">
+              <a :href="project.link" target="_blank">
+                <img class="thumb-portfolio" :src="project.thumbnail">
+              </a>
+              <!-- <h3>{{project.title}}</h3>
+              <p>{{project.description}}</p> -->
+            </div>
+            <!-- <img class="thumb-portfolio col-4" src="./images/drbowyerlogo.gif" alt="" >
+            <img class="thumb-portfolio col-4" src="./images/drbowyer.png" alt="" >
+            <img class="thumb-portfolio col-4" src="./images/drbowyer.png" alt="" > -->
+        </div>
+      </div>
+      <vue-footer></vue-footer>
+    </div>
+  </body>
+  <script src="./js/index.js" charset="utf-8"></script>
+  <script type="text/javascript">
+
+  var portfolioApp = new Vue({
+    el: '#portfolio',
+    data: {
+      projectList: [
+        {
+          id: 0,
+          title: "Dr. Bowyer",
+          description: "Local dentist brightening smiles in a small Washington town",
+          link: "https://www.drbowyer.com/",
+          thumbnail: "./images/bowyer-thumb.png",
+          screencap: ""
+        },
+        {
+          id: 1,
+          title: "Earth Healer LLC",
+          description: "Classes and tips to foster greener, plant-rich communities ",
+          link: "http://earthhealerllc.com/",
+          thumbnail: "./images/earth-healer-thumb.png",
+          screencap: ""
+        },
+        {
+          id: 2,
+          title: "PACE Healthcare Network",
+          description: "Connecting great employees with great employers across the Northwest",
+          link: "https://www.pacestaffing.com/",
+          thumbnail: "./images/pace-thumb.png",
+          screencap: ""
+        },
+      ]
+    }
+
+  })
+
+//Main app
+  var app = new Vue({
+    el: '#app'
+  })
+
+
+  </script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-62784011-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-62784011-2');
+  </script>
+</html>
