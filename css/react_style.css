@@ -1,0 +1,213 @@
+/* Reactive Template!!! - Taken from WordPress */
+/* -------------------------------------------------------------------------- */
+/* -----------------------------------Desktop-------------------------------- */
+/* -------------------------------------------------------------------------- */
+
+html,body{
+
+}
+
+
+/* > 1240 -------------------------------------------------------------> 1240 */
+
+@media only screen and (min-width: 1240px)
+{
+  #intro-container {
+    font-size: 3.5em;
+    /* font-weight: normal; */
+    line-height: normal;
+    color: black;
+    background: url(../images/pexels-photo-347139.jpeg) no-repeat center center fixed;
+    text-align: center;
+    padding: 15% 15%;
+  }
+}
+
+
+/* #Header Creative always Open	1240 - 1489 -----------------------------------
+------------------------------------ #Header Creative always Open 1240 - 1489 */
+
+@media only screen and (min-width: 1240px) and (max-width: 1489px)
+{
+
+}
+
+
+/* < 1240 ----------------------------------------------------------- < 1240 */
+
+@media only screen and (max-width: 1239px)
+{ }
+
+
+/* #Desktop	960 - 1239 -------------------------------- #Desktop	960 - 1239 */
+
+@media only screen and (min-width: 960px) and (max-width: 1239px)
+{ }
+
+
+/* #Desktop	> 960 ------------------------------------------- #Desktop	> 960 */
+
+@media only screen and (min-width: 1023px)
+{
+  #intro-container {
+    font-size: 3.4em;
+    font-weight: bold;
+    line-height: normal;
+    color: black;
+    background: url(../images/pexels-photo-347139.jpeg) no-repeat center center fixed;
+    text-align: center;
+    padding: 13% 15%;
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/* -----------------------------------Tablet--------------------------------- */
+/* -------------------------------------------------------------------------- */
+
+/* #Tablet (Landscape) 768 - 959 -------------- #Tablet (Landscape) 768 - 959 */
+
+@media only screen and (min-width: 768px) and (max-width: 959px)
+{
+
+}
+
+
+/* #Desktop & Tablet (Landscape) > 768 ----------------------------------------
+---------------------------------------- #Desktop & Tablet (Landscape) > 768 */
+
+@media only screen and (min-width: 768px)
+{
+
+}
+
+
+/* #Tablet (Portrait) & Mobile < 768 ------------------------------------------
+------------------------------------------ #Tablet (Portrait) & Mobile < 768 */
+
+@media only screen and (min-width: 768px)
+{
+  #intro-container {
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: normal;
+    color: black;
+    background: url(../images/pexels-photo-347139.jpeg) no-repeat center center fixed;
+    text-align: center;
+    padding: 13% 15%;
+  }
+}
+
+
+/* #Tablet (Portrait) & Mobile (Landscape) 480 - 768 --------------------------
+--------------------------- #Tablet (Portrait) & Mobile (Landscape) 480 - 768 */
+
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+  #intro-container {
+    font-size: 2.0em;
+    font-weight: bold;
+    line-height: normal;
+    color: black;
+    background: url(../images/pexels-photo-347139.jpeg) no-repeat center center fixed;
+    text-align: center;
+    padding: 15% 15%;
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/* -----------------------------------Mobile--------------------------------- */
+/* -------------------------------------------------------------------------- */
+
+/* #Mobile (Portrait) < 480 ------------------------ #Mobile (Portrait) < 480 */
+@media only screen and (min-width: 448px) and (max-width: 500px)
+{ }
+
+/* #Mobile, Large < 425 ---------------------------------------------------- */
+@media only screen and (max-width: 479px)
+{
+  #intro-container {
+    font-size: 2.0em;
+    font-weight: bold;
+    line-height: normal;
+    color: black;
+    background: url(../images/pexels-photo-347139.jpeg) no-repeat center center fixed;
+    text-align: center;
+    padding: 18% 15%;
+  }
+
+}
+
+/* #Mobile, Medium < 375 ----------------------------------------------------*/
+@media only screen and (max-width: 376px)
+{
+  #intro-container {
+    font-size: 1.8em;
+    font-weight: bold;
+    line-height: normal;
+    color: black;
+    background: url(../images/pexels-photo-347139.jpeg) no-repeat center center fixed;
+    text-align: center;
+    padding: 18% 15%;
+  }
+}
+
+/* #Mobile, Small < 320 -----------------------------------------------------*/
+@media only screen and (max-width: 320px)
+{
+  #intro-container {
+    font-weight: bold;
+    line-height: 0.8;
+    color: black;
+    background: url(../images/pexels-photo-347139.jpeg) no-repeat center center fixed;
+    text-align: center;
+    padding: 18% 15%;
+  }
+
+      #intro-container h1{
+        font-size: 1.2em;
+        font-weight: bold;
+      }
+
+      #intro-container span{
+        font-size: 0.6em;
+      }
+
+  #about-container {
+    text-align: center;
+    padding: 60px 10% 50px 10%;
+    background-color: #5e9af9;
+    color: white;
+  }
+  /* . */
+
+  .details-collumn{
+    text-align: center;
+    border: 0.5px solid #5e9af9;
+    /* border-radius: 25px; */
+    padding: 10% 5%;
+
+  }
+
+    .details-top{
+      margin: 5% 5% 0 5%;
+      border-radius: 25px 25px 0px 0px;
+      box-shadow: 4px 0px #eff2f7;
+    }
+
+    .details-middle{
+      margin: 0 5%;
+      box-shadow: 4px 0px #eff2f7;
+    }
+    .details-bottom{
+      margin: 0 5% 5% 5%;
+      border-radius: 0px 0px 25px 25px;
+      box-shadow: 3px 6px #eff2f7;
+    }
+
+  .projects-container{
+    margin-top: 30px;
+    text-align: center;
+  }
+
+
+}

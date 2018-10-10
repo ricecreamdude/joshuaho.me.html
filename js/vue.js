@@ -178,7 +178,7 @@ Vue.component('vue-about', {
 Vue.component('vue-portfolio', {
   template: `
     <div class="container" v-bind:style="portfolioStyle">
-      <h1>Projects I've Worked On</h1>
+      <h1>Projects</h1>
       <p>Here are some of the websites I helped create</p>
     </div>
   `,
