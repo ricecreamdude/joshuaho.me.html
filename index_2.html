@@ -18,9 +18,7 @@
   <!-- Stylesheets  -->
   <link rel="stylesheet" href="./css/vue_style.css">
   <link rel="stylesheet" href="./css/react_style.css">
-
 </head>
-
 <body>
   <div id="root"></div>
 </body>
@@ -193,7 +191,7 @@
     class ReactProjects extends React.Component {
       render(){
         return(
-          <div class="container projects-container">
+          <div class="container portoflio-title-container">
             <h2>Projects</h2>
             <p>Here are some of the websites I helped create</p>
           </div>
@@ -201,12 +199,26 @@
       }
     }
 
+    class ReactFooter extends React.Component {
+      render() {
+        return (
+          <footer class="container footer row cust-footer">
+            <div class="col-12">
+              <a href="https://github.com/ricecreamdude" id="icon-github" class="icon-social" target="_blank">
+                <img src="./images/GitHub-Mark-32px.png"/>
+              </a>
+              <a href="https://www.linkedin.com/in/joshua-ho-80b6a251/" id="icon-linkedin" class="icon-social" target="_blank">
+                <img src="./images/In-Black-34px-R.png"/>
+              </a>
+            </div>
+          </footer>
+        )
+      }
+    }
+
     function portfolioCard(project){
       return(
-        <div class="col-sm portfolio-card"  href="{project.link}">
-          <h3>{project.title}</h3>
-          <p>{project.description}</p>
-        </div>
+        <div class="col-sm portfolio-card"  href={project.link} id={project.className}></div>
       )
     }
 
@@ -219,7 +231,12 @@
           <ReactAbout />
           <ReactDetails />
           <ReactProjects />
-          {portfolioCard(portfolioItems[0])}
+          <div class="portfolio-container">
+            {portfolioCard(portfolioItems[0])}
+            {portfolioCard(portfolioItems[1])}
+            {portfolioCard(portfolioItems[2])}
+          </div>
+          <ReactFooter />
         </div>
       )
     }
