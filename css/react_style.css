@@ -3,62 +3,265 @@
 /* -----------------------------------Desktop-------------------------------- */
 /* -------------------------------------------------------------------------- */
 
-html,body{
-
-}
-
+html,body{ }
 
 /* > 1240 -------------------------------------------------------------> 1240 */
 
 @media only screen and (min-width: 1240px)
 {
+    /* *****************ABOUT***************** */
   #intro-container {
-    font-size: 3.5em;
-    /* font-weight: normal; */
-    line-height: normal;
+    font-size: 1.8em;
+    font-weight: bold;
+    line-height: 0.8;
     color: black;
     background: url(../images/pexels-photo-347139.jpeg) no-repeat center center fixed;
     text-align: center;
-    padding: 15% 15%;
+    padding: 18% 15%;
+  }
+    #intro-container h1{
+      font-size: 1.8em;
+      font-weight: bold;
+    }
+
+    #intro-container span{
+      font-size: 0.8em;
+    }
+
+  /* *****************ABOUT***************** */
+  #about-container {
+    font-size: 1.3em;
+    text-align: center;
+    padding: 60px 10% 200px 10%;
+    background-color: #5e9af9;
+    color: white;
+  }
+      #about-container h2 {
+
+      }
+      #about-container span {
+
+      }
+
+  /* *****************ABOUT***************** */
+  .details-collumn{
+    text-align: center;
+    border: 0.5px solid #5e9af9;
+    /* border-radius: 25px; */
+    padding: 10% 5%;
+  }
+    .abt-title{
+      font-size: 1.8em;
+    }
+    .abt-text{
+      font-size: 1.2em;
+    }
+    .abt-skillTitle{
+      font-size: 1.4em;
+    }
+    .abt-skillList{
+      font-size: 1.2em;
+    }
+
+  /* *****************DETAILS***************** */
+
+  .details-container{
+    margin-top: -200px;
+    z-index:  100;
+  }
+
+    .details{
+      background-color: white;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+    .details-top{
+      margin: 5% 0 5% 5%;
+      border-radius: 25px 0px 0px 25px;
+      box-shadow: 0px 4px #eff2f7;
+    }
+    .details-middle{
+      margin: 5% 0;
+      box-shadow: 0px 4px #eff2f7;
+    }
+    .details-bottom{
+      margin: 5% 5% 5% 0%;
+      border-radius: 0px 25px 25px 0px;
+      box-shadow: 0px 4px #eff2f7;
+    }
+
+  /* *****************PORTFOLIO***************** */
+  .portoflio-title-container{
+    margin: 30px auto 50px auto;
+    text-align: center;
+  }
+    .portoflio-title-container h2{
+      font-size: 2.5em;
+    }
+    .portoflio-title-container p{
+      font-size: 1.2em;
+    }
+
+    .portfolio-container{
+      margin: 5px 20px;
+      }
+    .portfolio-card {
+      width: 32%;
+      height: 230px;
+      text-align: center;
+      margin: 10px 0.5%;
+      border-radius: 10px;
+      float: left;
+    }
+
+  #card-bowyer{
+  background: url(../images/bowyer-thumb.png) no-repeat center;
+  }
+  #card-earth-healer{
+  background: url(../images/earth-healer-thumb.png) no-repeat center;
+  }
+  #card-pace{
+  background: url(../images/pace-thumb.png) no-repeat center;
+  }
+
+  /*******FOOTER********/
+  .icon-social{
+  margin-right: 5px;
+  }
+  .cust-footer{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
   }
 }
-
-
-/* #Header Creative always Open	1240 - 1489 -----------------------------------
------------------------------------- #Header Creative always Open 1240 - 1489 */
-
-@media only screen and (min-width: 1240px) and (max-width: 1489px)
-{
-
-}
-
-
-/* < 1240 ----------------------------------------------------------- < 1240 */
-
-@media only screen and (max-width: 1239px)
-{ }
-
 
 /* #Desktop	960 - 1239 -------------------------------- #Desktop	960 - 1239 */
-
 @media only screen and (min-width: 960px) and (max-width: 1239px)
-{ }
-
-
-/* #Desktop	> 960 ------------------------------------------- #Desktop	> 960 */
-
-@media only screen and (min-width: 1023px)
 {
-  #intro-container {
-    font-size: 3.4em;
-    font-weight: bold;
-    line-height: normal;
-    color: black;
-    background: url(../images/pexels-photo-347139.jpeg) no-repeat center center fixed;
-    text-align: center;
-    padding: 13% 15%;
-  }
+  /* *****************ABOUT***************** */
+#intro-container {
+  font-size: 1.8em;
+  font-weight: bold;
+  line-height: 0.8;
+  color: black;
+  background: url(../images/pexels-photo-347139.jpeg) no-repeat center center fixed;
+  text-align: center;
+  padding: 18% 15%;
 }
+  #intro-container h1{
+    font-size: 1.8em;
+    font-weight: bold;
+  }
+
+  #intro-container span{
+    font-size: 0.8em;
+  }
+
+/* *****************ABOUT***************** */
+#about-container {
+  font-size: 1.3em;
+  text-align: center;
+  padding: 60px 10% 200px 10%;
+  background-color: #5e9af9;
+  color: white;
+}
+    #about-container h2 {
+
+    }
+    #about-container span {
+
+    }
+
+/* *****************ABOUT***************** */
+.details-collumn{
+  text-align: center;
+  border: 0.5px solid #5e9af9;
+  /* border-radius: 25px; */
+  padding: 10% 5%;
+}
+  .abt-title{
+    font-size: 1.8em;
+  }
+  .abt-text{
+    font-size: 1.2em;
+  }
+  .abt-skillTitle{
+    font-size: 1.4em;
+  }
+  .abt-skillList{
+    font-size: 1.2em;
+  }
+
+/* *****************DETAILS***************** */
+
+.details-container{
+  margin-top: -200px;
+  z-index:  100;
+}
+
+  .details{
+    background-color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .details-top{
+    margin: 5% 0 5% 5%;
+    border-radius: 25px 0px 0px 25px;
+    box-shadow: 0px 4px #eff2f7;
+  }
+  .details-middle{
+    margin: 5% 0;
+    box-shadow: 0px 4px #eff2f7;
+  }
+  .details-bottom{
+    margin: 5% 5% 5% 0%;
+    border-radius: 0px 25px 25px 0px;
+    box-shadow: 0px 4px #eff2f7;
+  }
+
+/* *****************PORTFOLIO***************** */
+.portoflio-title-container{
+  margin: 30px auto 50px auto;
+  text-align: center;
+}
+  .portoflio-title-container h2{
+    font-size: 2.5em;
+  }
+  .portoflio-title-container p{
+    font-size: 1.2em;
+  }
+
+  .portfolio-container{
+    margin: 5px 20px;
+    }
+  .portfolio-card {
+    width: 32%;
+    height: 230px;
+    text-align: center;
+    margin: 10px 0.5%;
+    border-radius: 10px;
+    float: left;
+  }
+
+#card-bowyer{
+background: url(../images/bowyer-thumb.png) no-repeat center;
+}
+#card-earth-healer{
+background: url(../images/earth-healer-thumb.png) no-repeat center;
+}
+#card-pace{
+background: url(../images/pace-thumb.png) no-repeat center;
+}
+
+/*******FOOTER********/
+.icon-social{
+margin-right: 5px;
+}
+.cust-footer{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+}
+
 
 /* -------------------------------------------------------------------------- */
 /* -----------------------------------Tablet--------------------------------- */
@@ -68,17 +271,134 @@ html,body{
 
 @media only screen and (min-width: 768px) and (max-width: 959px)
 {
+  /* *****************ABOUT***************** */
+#intro-container {
+  font-size: 1.8em;
+  font-weight: bold;
+  line-height: 0.8;
+  color: black;
+  background: url(../images/pexels-photo-347139.jpeg) no-repeat center center fixed;
+  text-align: center;
+  padding: 18% 15%;
+}
+  #intro-container h1{
+    font-size: 1.8em;
+    font-weight: bold;
+  }
 
+  #intro-container span{
+    font-size: 0.8em;
+  }
+
+/* *****************ABOUT***************** */
+#about-container {
+  font-size: 1.3em;
+  text-align: center;
+  padding: 60px 10% 200px 10%;
+  background-color: #5e9af9;
+  color: white;
+}
+    #about-container h2 {
+
+    }
+    #about-container span {
+
+    }
+
+/* *****************ABOUT***************** */
+.details-collumn{
+  text-align: center;
+  border: 0.5px solid #5e9af9;
+  /* border-radius: 25px; */
+  padding: 10% 5%;
+}
+  .abt-title{
+    font-size: 1.8em;
+  }
+  .abt-text{
+    font-size: 1.2em;
+  }
+  .abt-skillTitle{
+    font-size: 1.4em;
+  }
+  .abt-skillList{
+    font-size: 1.2em;
+  }
+
+/* *****************DETAILS***************** */
+
+.details-container{
+  margin-top: -200px;
+  z-index:  100;
+}
+
+  .details{
+    background-color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .details-top{
+    margin: 5% 0 5% 5%;
+    border-radius: 25px 0px 0px 25px;
+    box-shadow: 0px 4px #eff2f7;
+  }
+  .details-middle{
+    margin: 5% 0;
+    box-shadow: 0px 4px #eff2f7;
+  }
+  .details-bottom{
+    margin: 5% 5% 5% 0%;
+    border-radius: 0px 25px 25px 0px;
+    box-shadow: 0px 4px #eff2f7;
+  }
+
+/* *****************PORTFOLIO***************** */
+.portoflio-title-container{
+  margin: 30px auto 50px auto;
+  text-align: center;
+}
+  .portoflio-title-container h2{
+    font-size: 2.5em;
+  }
+  .portoflio-title-container p{
+    font-size: 1.2em;
+  }
+
+  .portfolio-container{
+    margin: 5px 20px;
+    }
+  .portfolio-card {
+    width: 32%;
+    height: 230px;
+    text-align: center;
+    margin: 10px 0.5%;
+    border-radius: 10px;
+    float: left;
+  }
+
+#card-bowyer{
+background: url(../images/bowyer-thumb.png) no-repeat center;
+}
+#card-earth-healer{
+background: url(../images/earth-healer-thumb.png) no-repeat center;
+}
+#card-pace{
+background: url(../images/pace-thumb.png) no-repeat center;
+}
+
+/*******FOOTER********/
+.icon-social{
+margin-right: 5px;
+}
+.cust-footer{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
 }
 
 
 /* #Desktop & Tablet (Landscape) > 768 ----------------------------------------
 ---------------------------------------- #Desktop & Tablet (Landscape) > 768 */
-
-@media only screen and (min-width: 768px)
-{
-
-}
 
 
 /* #Tablet (Portrait) & Mobile < 768 ------------------------------------------
@@ -86,15 +406,7 @@ html,body{
 
 @media only screen and (min-width: 768px)
 {
-  #intro-container {
-    font-size: 2.5em;
-    font-weight: bold;
-    line-height: normal;
-    color: black;
-    background: url(../images/pexels-photo-347139.jpeg) no-repeat center center fixed;
-    text-align: center;
-    padding: 13% 15%;
-  }
+
 }
 
 
@@ -104,13 +416,108 @@ html,body{
 @media only screen and (min-width: 480px) and (max-width: 767px)
 {
   #intro-container {
-    font-size: 2.0em;
+    font-size: 1.8em;
     font-weight: bold;
-    line-height: normal;
+    line-height: 0.8;
     color: black;
     background: url(../images/pexels-photo-347139.jpeg) no-repeat center center fixed;
     text-align: center;
-    padding: 15% 15%;
+    padding: 18% 15%;
+  }
+    #intro-container h1{
+      font-size: 1.8em;
+      font-weight: bold;
+    }
+
+    #intro-container span{
+      font-size: 0.8em;
+    }
+
+  #about-container {
+    font-size: 1.3em;
+    text-align: center;
+    padding: 60px 10% 50px 10%;
+    background-color: #5e9af9;
+    color: white;
+
+  }
+      #about-container h2 {
+
+      }
+      #about-container span {
+
+      }
+
+  .details-collumn{
+    text-align: center;
+    border: 0.5px solid #5e9af9;
+    /* border-radius: 25px; */
+    padding: 10% 5%;
+  }
+    .abt-title{
+      font-size: 1.8em;
+    }
+    .abt-text{
+      font-size: 1.2em;
+    }
+    .abt-skillTitle{
+      font-size: 1.4em;
+    }
+    .abt-skillList{
+      font-size: 1.2em;
+    }
+  .details-top{
+    margin: 5% 5% 0 5%;
+    border-radius: 25px 25px 0px 0px;
+    box-shadow: 4px 0px #eff2f7;
+  }
+  .details-middle{
+    margin: 0 5%;
+    box-shadow: 4px 0px #eff2f7;
+  }
+  .details-bottom{
+    margin: 0 5% 5% 5%;
+    border-radius: 0px 0px 25px 25px;
+    box-shadow: 3px 6px #eff2f7;
+  }
+
+  .portoflio-title-container{
+    margin: 30px 0 50px 0;
+    text-align: center;
+  }
+    .portoflio-title-container h2{
+      font-size: 2.5em;
+    }
+    .portoflio-title-container p{
+      font-size: 1.2em;
+    }
+
+    .portfolio-container{
+      margin: 5px 20px;
+      }
+    .portfolio-card {
+      width: 100%;
+      height: 230px;
+      text-align: center;
+      margin: 10px 0;
+      border-radius: 10px;
+    }
+
+  #card-bowyer{
+  background: url(../images/bowyer-thumb.png) no-repeat center;
+  }
+  #card-earth-healer{
+  background: url(../images/earth-healer-thumb.png) no-repeat center;
+  }
+  #card-pace{
+  background: url(../images/pace-thumb.png) no-repeat center;
+  }
+  .icon-social{
+  margin-right: 5px;
+  }
+  .cust-footer{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
   }
 }
 
@@ -125,15 +532,111 @@ html,body{
 /* #Mobile, Large < 425 ---------------------------------------------------- */
 @media only screen and (max-width: 479px)
 {
-  #intro-container {
-    font-size: 2.0em;
-    font-weight: bold;
-    line-height: normal;
-    color: black;
-    background: url(../images/pexels-photo-347139.jpeg) no-repeat center center fixed;
-    text-align: center;
-    padding: 18% 15%;
-  }
+
+    #intro-container {
+      font-size: 1.8em;
+      font-weight: bold;
+      line-height: 0.8;
+      color: black;
+      background: url(../images/pexels-photo-347139.jpeg) no-repeat center center fixed;
+      text-align: center;
+      padding: 18% 15%;
+    }
+      #intro-container h1{
+        font-size: 1.8em;
+        font-weight: bold;
+      }
+
+      #intro-container span{
+        font-size: 0.8em;
+      }
+
+    #about-container {
+      font-size: 1.3em;
+      text-align: center;
+      padding: 60px 10% 50px 10%;
+      background-color: #5e9af9;
+      color: white;
+
+    }
+        #about-container h2 {
+
+        }
+        #about-container span {
+
+        }
+
+    .details-collumn{
+      text-align: center;
+      border: 0.5px solid #5e9af9;
+      /* border-radius: 25px; */
+      padding: 10% 5%;
+    }
+      .abt-title{
+        font-size: 1.8em;
+      }
+      .abt-text{
+        font-size: 1.2em;
+      }
+      .abt-skillTitle{
+        font-size: 1.4em;
+      }
+      .abt-skillList{
+        font-size: 1.2em;
+      }
+    .details-top{
+      margin: 5% 5% 0 5%;
+      border-radius: 25px 25px 0px 0px;
+      box-shadow: 4px 0px #eff2f7;
+    }
+    .details-middle{
+      margin: 0 5%;
+      box-shadow: 4px 0px #eff2f7;
+    }
+    .details-bottom{
+      margin: 0 5% 5% 5%;
+      border-radius: 0px 0px 25px 25px;
+      box-shadow: 3px 6px #eff2f7;
+    }
+
+    .portoflio-title-container{
+      margin: 30px 0 50px 0;
+      text-align: center;
+    }
+      .portoflio-title-container h2{
+        font-size: 2.5em;
+      }
+      .portoflio-title-container p{
+        font-size: 1.2em;
+      }
+
+      .portfolio-container{
+        margin: 5px 20px;
+        }
+      .portfolio-card {
+        width: 100%;
+        height: 230px;
+        text-align: center;
+        margin: 10px 0;
+        border-radius: 10px;
+      }
+
+    #card-bowyer{
+    background: url(../images/bowyer-thumb.png) no-repeat center;
+    }
+    #card-earth-healer{
+    background: url(../images/earth-healer-thumb.png) no-repeat center;
+    }
+    #card-pace{
+    background: url(../images/pace-thumb.png) no-repeat center;
+    }
+    .icon-social{
+    margin-right: 5px;
+    }
+    .cust-footer{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    }
 
 }
 
@@ -143,17 +646,103 @@ html,body{
   #intro-container {
     font-size: 1.8em;
     font-weight: bold;
-    line-height: normal;
+    line-height: 0.8;
     color: black;
     background: url(../images/pexels-photo-347139.jpeg) no-repeat center center fixed;
     text-align: center;
     padding: 18% 15%;
   }
+    #intro-container h1{
+      font-size: 1.8em;
+      font-weight: bold;
+    }
+
+    #intro-container span{
+      font-size: 0.6em;
+    }
+
+  #about-container {
+    font-size: 1.2em;
+    text-align: center;
+    padding: 60px 10% 50px 10%;
+    background-color: #5e9af9;
+    color: white;
+
+  }
+      #about-container h2 {
+        font-size: 1.4em;
+      }
+      #about-container span {
+
+      }
+
+  .details-collumn{
+  text-align: center;
+  border: 0.5px solid #5e9af9;
+  /* border-radius: 25px; */
+  padding: 10% 5%;
+
+  }
+
+  .details-top{
+  margin: 5% 5% 0 5%;
+  border-radius: 25px 25px 0px 0px;
+  box-shadow: 4px 0px #eff2f7;
+  }
+
+  .details-middle{
+  margin: 0 5%;
+  box-shadow: 4px 0px #eff2f7;
+  }
+  .details-bottom{
+  margin: 0 5% 5% 5%;
+  border-radius: 0px 0px 25px 25px;
+  box-shadow: 3px 6px #eff2f7;
+  }
+
+  .portoflio-title-container{
+  margin-top: 30px;
+  text-align: center;
+  }
+
+  .portfolio-container{
+  margin: 5px 20px;
+  }
+  .portfolio-card {
+  width: 100%;
+  height: 180px;
+  text-align: center;
+  margin: 10px 0;
+  border-radius: 10px;
+  }
+
+  #card-bowyer{
+  background: url(../images/mobile/bowyer-thumb-m-300.png) no-repeat center;
+  }
+  #card-earth-healer{
+  background: url(../images/mobile/earth-healer-thumb-m-300.png) no-repeat center;
+  }
+  #card-pace{
+  background: url(../images/mobile/pace-thumb-m-300.png) no-repeat center;
+  }
+  .icon-social{
+  margin-right: 5px;
+  }
+  .cust-footer{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  }
+
 }
 
 /* #Mobile, Small < 320 -----------------------------------------------------*/
 @media only screen and (max-width: 320px)
 {
+  #main{
+    margin: 0;
+    padding: 0;
+  }
+
   #intro-container {
     font-weight: bold;
     line-height: 0.8;
@@ -204,44 +793,38 @@ html,body{
       box-shadow: 3px 6px #eff2f7;
     }
 
-    .portoflio-title-container{
-      margin-top: 30px;
-      text-align: center;
-    }
+  .portoflio-title-container{
+    margin-top: 30px;
+    text-align: center;
+  }
 
-    .portfolio-container{
-      margin: 5px 20px;
-    }
-
+  .portfolio-container{
+    margin: 5px 20px;
+  }
     .portfolio-card {
       width: 100%;
       height: 180px;
       text-align: center;
       margin: 10px 0;
       border-radius: 10px;
-
-      object-fit: contain;
     }
 
-    #card-bowyer{
-      background: url(../images/mobile/bowyer-thumb-m-300.png) no-repeat center;
-    }
-
-    #card-earth-healer{
-      background: url(../images/mobile/earth-healer-thumb-m-300.png) no-repeat center;
-    }
-
-    #card-pace{
-      background: url(../images/mobile/pace-thumb-m-300.png) no-repeat center;
-    }
-
-    .icon-social{
-      margin-right: 5px;
-    }
-
-    .cust-footer{
-      margin-left: 0px !important;
-      margin-right: 0px !important;
-    }
-
+  #card-bowyer{
+    background: url(../images/mobile/bowyer-thumb-m-300.png) no-repeat center;
+  }
+  #card-earth-healer{
+    background: url(../images/mobile/earth-healer-thumb-m-300.png) no-repeat center;
+  }
+  #card-pace{
+    background: url(../images/mobile/pace-thumb-m-300.png) no-repeat center;
+  }
+  .icon-social{
+    margin-right: 5px;
+  }
+  .cust-footer{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
 }
