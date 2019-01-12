@@ -3,39 +3,67 @@
 /* -----------------------------------Desktop-------------------------------- */
 /* -------------------------------------------------------------------------- */
 
-html,body{ }
+html,body{
+  /* color: #faf8f6 ; */
+  background-color: #faf8f6;
+ }
 
 /* > 1240 -------------------------------------------------------------> 1240 */
 
 @media only screen and (min-width: 1240px)
 {
+    /* *****************HEADER***************** */
+
+  #header-wrapper {
+    background-color: #ba5dfc;
+    color: white;
+    padding: 30px 0px;
+    /* position: fixed; */
+  }
+  #header-wrapper a {
+    font-weight: bold;
+    color: white;
+    font-size: 1.1em;
+    /* position: fixed; */
+  }
+
+  #header-wrapper .active {
+    color: #f5e36e;
+    /* position: fixed; */
+  }
     /* *****************ABOUT***************** */
   #intro-container {
-    font-size: 1.8em;
-    font-weight: bold;
-    line-height: 0.8;
-    color: black;
-    background: url(../images/pexels-photo-347139.jpeg) no-repeat center center fixed;
+    line-height: 1.4;
+    color: white;
+    /* background-color: #f99c5e; */
+    /* background-color: #5E9AF9; */
+    background-color: #ba5dfc;
     text-align: center;
-    padding: 18% 15%;
+    padding: 14% 0 21% 0;
+    height: 100%;
+    width: 100%;
   }
-    #intro-container h1{
-      font-size: 1.8em;
-      font-weight: bold;
+  #josh {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #f5ed6e;
+  }
+    #intro-container div{
+      font-size: 2.6em;
     }
 
-    #intro-container span{
-      font-size: 0.8em;
-    }
 
   /* *****************ABOUT***************** */
   #about-container {
     font-size: 1.3em;
     text-align: center;
-    padding: 60px 10% 200px 10%;
-    background-color: #5e9af9;
+    padding: 120px 10% 300px 10%;
+    /* background-color: #5E9AF9; */
+    background-color: #f99c5e;
     color: white;
   }
+
+
       #about-container h2 {
 
       }
@@ -143,13 +171,14 @@ html,body{ }
   font-weight: bold;
   line-height: 0.8;
   color: black;
-  background: url(../images/pexels-photo-347139.jpeg) no-repeat center center fixed;
+  background: url('../images/pexels-photo-347139.jpeg') no-repeat center center fixed;
   text-align: center;
   padding: 18% 15%;
 }
   #intro-container h1{
     font-size: 1.8em;
     font-weight: bold;
+    color: white;
   }
 
   #intro-container span{
@@ -423,6 +452,7 @@ margin-right: 5px;
     background: url(../images/pexels-photo-347139.jpeg) no-repeat center center fixed;
     text-align: center;
     padding: 18% 15%;
+    height: 100%;
   }
     #intro-container h1{
       font-size: 1.8em;
