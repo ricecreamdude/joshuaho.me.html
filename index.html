@@ -49,23 +49,23 @@
           <section id="header-wrapper">
               <div class="container">
                 <div class="row">
-                  <div class="col-sm-6">
+                  <div class="col-sm-6" id="header-name">
                     <ul class="nav">
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Joshua Ho</a>
+                        <a class="nav-link" href="#" >Joshua Ho</a>
                       </li>
                     </ul>
                   </div>
                   <div class="col-sm-6">
                     <ul class="nav justify-content-end">
                       <li class="nav-item">
-                        <a class="nav-link active hvr-underline-from-center" href="#">About</a>
+                        <a class="nav-link hvr-underline-from-center" href="#about">About</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link hvr-underline-from-center" href="#">Projects</a>
+                        <a class="nav-link hvr-underline-from-center" href="#projects">Projects</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link hvr-underline-from-center" href="#">Contact</a>
+                        <a class="nav-link hvr-underline-from-center" href="mailto:ho.joshua4@gmail.com">Contact</a>
                       </li>
                     </ul>
                   </div>
@@ -218,9 +218,7 @@
     function portfolioCard(project){
       return(
         <div class="col-sm">
-          <div class="outer portfolio-card" id={project.className}>
-
-          </div>
+          <div class="outer portfolio-card" id={project.className}></div>
           <div class="inner portfolio-card">
             <div>
               {project.description}
@@ -242,18 +240,20 @@
         <div>
           <ReactHeader />
           <ReactSlider />
+          <a name="about"></a>
           <ReactAbout />
           <ReactDetails />
+          <a name="projects"></a>
           <ReactProjects />
           <section class="container portfolio-container">
             <div class="row">
-              <div class="col-sm-4">
+              <div class="col-sm-4 col-xs-12">
                 {portfolioCard(portfolioItems[0])}
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-4 col-xs-12">
                 {portfolioCard(portfolioItems[1])}
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-4 col-xs-12">
                 {portfolioCard(portfolioItems[2])}
               </div>
             </div>
