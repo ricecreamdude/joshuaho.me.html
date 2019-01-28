@@ -372,7 +372,7 @@ a:link{
 .portfolio-container{
   margin: 0px auto;
   height: 100%;
-  margin-bottom: 400px;
+  margin-bottom: 20px;
   }
 
     .portfolio-card-button{
@@ -397,7 +397,7 @@ a:link{
       text-align: center;
       border-radius: 10px;
       float: left;
-      position: absolute;
+      /* position: absolute; */
     }
     /* fade out outer layer */
     .portfolio-card:hover {
@@ -628,7 +628,7 @@ a:link{
       text-align: center;
       border-radius: 10px;
       float: left;
-      position: absolute;
+      /* position: absolute; */
     }
     /* fade out outer layer */
     .portfolio-card:hover {
@@ -968,15 +968,15 @@ a:link{
     color: white;
     background-color: #ba5dfc;
     text-align: center;
-    padding: 21% 0 21% 0;
+    padding: 25% 3%;
     height: 100%;
     width: 100%;
   }
   #intro-container div{
-    font-size: 2.1em;
+    font-size: 2.0em;
   }
   #josh {
-    font-size: 1.6em;
+    font-size: 1.4em;
     font-weight: bold;
     color: #f5ed6e;
   }
@@ -985,7 +985,7 @@ a:link{
 
   /* *****************ABOUT***************** */
   #about-wrapper {
-    font-size: 1.3em;
+    font-size: 1.2em;
     text-align: center;
     padding: 120px 5% 300px 5%;
     /* background-color: #5E9AF9; */
@@ -993,20 +993,8 @@ a:link{
     color: white;
   }
 
-  .icon-wrapper {
-    color: #ba5dfc;
-    font-size: 3.1em;
-    padding-bottom: 12%;
-    margin: 0px auto;
-  }
-
-
-  #about-container h2 {
-
-  }
-  #about-container span {
-
-  }
+  #about-container h2 {  }
+  #about-container span {  }
 
   .abt-title{
     font-size: 1.5em;
@@ -1093,7 +1081,6 @@ a:link{
       text-align: center;
       border-radius: 10px;
       float: left;
-      position: absolute;
     }
     /* fade out outer layer */
     .portfolio-card:hover {
@@ -1161,242 +1148,7 @@ a:link{
 /* #Mobile, Medium < 375 ----------------------------------------------------*/
 @media only screen and (max-width: 376px)
 {
-    /* *****************HEADER***************** */
-
-  #header-wrapper {
-    background-color: #ba5dfc;
-    color: white;
-    padding: 30px 0px;
-    width: 375px;
-    display: none;
-  }
-
-  #header-wrapper a {
-    font-weight: bold;
-    color: white;
-    font-size: 0.9em;
-  }
-
-  #header-wrapper .active {
-    color: #f5e36e;
-  }
-
-    /* *****************INTRO***************** */
-  #intro-container {
-    line-height: 1.2;
-    color: white;
-    background-color: #ba5dfc;
-    text-align: center;
-    padding: 14% 0 21% 0;
-    height: 100%;
-    width: 100%;
-  }
-  #intro-container div{
-    font-size: 1.1em;
-  }
-  #josh {
-    font-size: 1.4em;
-    font-weight: bold;
-    color: #f5ed6e;
-  }
-
-
-
-  /* *****************ABOUT***************** */
-  #about-wrapper {
-    font-size: 1.1em;
-    text-align: center;
-    padding: 120px 5% 300px 5%;
-    /* background-color: #5E9AF9; */
-    background-color: #c47af9;
-    color: white;
-  }
-
-
-
-  #about-wrapper div h2{
-    font-size: 0.9em;
-    padding: 0;
-  }
-
-#about-wrapper div span{
-  font-size: 0.7em;
-  padding: 0 20px;
-}
-
-
-/******DETAILS WRAPPER **************/
-  .icon-wrapper {
-    color: #ba5dfc;
-    font-size: 2.5em;
-    padding-bottom: 12%;
-    margin: 0px auto;
-  }
-
-
-  #about-container h2 {
-
-  }
-  #about-container span {
-
-  }
-
-  .abt-title{
-    font-size: 1.5em;
-    font-weight: bold;
-    padding: 25px;
-  }
-  .abt-text{
-    font-size: 1.1em;
-    margin-bottom: 30px;
-  }
-  .abt-skillTitle{
-    font-size: 1.3em;
-    color: #ba5dfc;
-    font-weight: bold;
-    margin: 15px auto;
-  }
-  .abt-skillList{
-    font-size: 1.1em;
-    list-style-type: none;
-    padding-left: 0px;
-    line-height: 1.75;
-  }
-
-  /* *****************DETAILS***************** */
-
-  .details-collumn{
-    text-align: center;
-    border: 0.5px solid #f7f7f7;
-    /* border-radius: 25px; */
-    padding: 5% 2.5%;
-  }
-
-  .details-wrapper{
-    margin-top: -250px;
-    z-index:  100;
-  }
-
-  .details{
-    background-color: white;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin: 5%;
-    border-radius: 25px;
-    box-shadow: 0px 4px #eff2f7;
-  }
-
-
-  /* *****************PORTFOLIO***************** */
-  .portoflio-title-container{
-    margin: 100px auto 70px auto;
-    text-align: center;
-  }
-    .portoflio-title-container h2{
-      font-size: 2.5em;
-    }
-    .portoflio-title-container p{
-      font-size: 1.2em;
-    }
-
-.portfolio-container{
-  margin: 0px auto;
-  height: 100%;
-  margin-bottom: 400px;
-  }
-
-    .portfolio-card-button{
-      margin: auto;
-      margin-top: 20px;
-      width: 150px;
-      height: 40px;
-      border: 3px solid #ba5dfc;
-      border-radius: 10px;
-      font-size: 1.0em;
-      font-weight: bold;
-      color: white;
-    }
-
-        .portfolio-card-button:hover{
-          background-color:#ba5dfc;
-        }
-
-    .portfolio-card {
-      width: 100%;
-      height: 230px;
-      text-align: center;
-      border-radius: 10px;
-      float: left;
-      position: absolute;
-    }
-    /* fade out outer layer */
-    .portfolio-card:hover {
-
-    }
-
-
-    .inner {
-      position: absolute;
-      color: white;
-      font-size: 1.3em;
-      opacity: 0;
-      background-color: #2E3542;
-      padding: 30px 30px;
-      margin: auto;
-    }
-
-
-
-    /*fade in inner layer */
-    .inner:hover {
-      position: absolute;
-      opacity: 100;
-    }
-  #card-bowyer{
-  background: url(../images/bowyer-thumb.png) no-repeat center;
-  }
-  #card-earth-healer{
-  background: url(../images/earth-healer-thumb.png) no-repeat center;
-  }
-  #card-pace{
-  background: url(../images/pace-thumb.png) no-repeat center;
-  }
-
-  /*******FOOTER********/
-  .icon-social{
-    margin-right: 10px;
-    font-size: 3.0em;
-  }
-  .cust-footer-wrapper{
-    color: #e8e6e5;
-    background-color: #ba5dfc;
-    padding: 150px 0;
-    text-align: center;
-  }
-
-  .cust-footer-content a:visited{
-      color: #e8e6e5;
-  }
-
-  .cust-footer-content a:hover{
-      color: #f7f7f7;
-  }
-
-
-  .foot-copyright{
-    padding: 20px;
-  }
-
-  .foot-copyright span{
-    font-size: 1.3em;
-  }
-}
-
-/* #Mobile, Small < 320 -----------------------------------------------------*/
-@media only screen and (max-width: 320px)
-{
-    /* *****************HEADER***************** */
-
+  /* *****************HEADER***************** */
   #header-wrapper {
     background-color: #ba5dfc;
     color: white;
@@ -1407,7 +1159,6 @@ a:link{
     color: white;
     font-size: 1.1em;
   }
-
   #header-wrapper .active {
     color: #f5e36e;
   }
@@ -1417,20 +1168,18 @@ a:link{
     color: white;
     background-color: #ba5dfc;
     text-align: center;
-    padding: 14% 0 21% 0;
+    padding: 25% 5%;
     height: 100%;
     width: 100%;
   }
+  #intro-container div{
+    font-size: 1.5em;
+  }
   #josh {
-    font-size: 1.6em;
+    font-size: 1.3em;
     font-weight: bold;
     color: #f5ed6e;
   }
-    #intro-container div{
-      font-size: 2.6em;
-    }
-
-
   /* *****************ABOUT***************** */
   #about-wrapper {
     font-size: 1.3em;
@@ -1440,16 +1189,6 @@ a:link{
     background-color: #c47af9;
     color: white;
   }
-
-
-
-  #about-container h2 {
-
-  }
-  #about-container span {
-
-  }
-
   .abt-title{
     font-size: 1.5em;
     font-weight: bold;
@@ -1471,13 +1210,10 @@ a:link{
     padding-left: 0px;
     line-height: 1.75;
   }
-
   /* *****************DETAILS***************** */
-
   .details-collumn{
     text-align: center;
     border: 0.5px solid #f7f7f7;
-    /* border-radius: 25px; */
     padding: 5% 2.5%;
   }
 
@@ -1488,12 +1224,10 @@ a:link{
 
   .icon-wrapper {
     color: #ba5dfc;
-    font-size: 3.1em;
-    padding: 10%;
+    font-size: 2.1em;
+    padding: 5%;
     margin: 0px auto;
   }
-
-
     .details{
       background-color: white;
       margin-top: 5%;
@@ -1504,77 +1238,49 @@ a:link{
     }
 
   /* *****************PORTFOLIO***************** */
-  .portoflio-title-container{
-    margin: 100px auto 70px auto;
+  .portfolio-container{
+    margin: 0px auto;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+  }
+  .portfolio-card {
+    height: 100%;
     text-align: center;
+    border-radius: 10px;
   }
-    .portoflio-title-container h2{
-      font-size: 2.5em;
+    .portfolio-card img {
+      max-width: 100%;
     }
-    .portoflio-title-container p{
-      font-size: 1.2em;
+    /* INNER */
+    .inner {
+      width: 92%;
+      position: absolute;
+      padding: auto 5%;
+      color: white;
+      font-size: 1.1em;
+      opacity: 0;
+      background-color: #2E3542;
     }
-
-.portfolio-container{
-  margin: 0px auto;
-  height: 100%;
-  margin-bottom: 400px;
-  }
+        .inner:hover {
+          opacity: 100;
+        }
 
     .portfolio-card-button{
       margin: auto;
-      margin-top: 20px;
+      margin-top: 15px;
+      text-align: center;
       width: 150px;
-      height: 40px;
+      height: 35px;
       border: 3px solid #ba5dfc;
       border-radius: 10px;
       font-size: 1.0em;
       font-weight: bold;
       color: white;
     }
-
-        .portfolio-card-button:hover{
-          background-color:#ba5dfc;
-        }
-
-    .portfolio-card {
-      width: 100%;
-      height: 230px;
-      text-align: center;
-      border-radius: 10px;
-      display: block !important;
+    .portfolio-card-button:hover{
+      background-color:#ba5dfc;
     }
-    /* fade out outer layer */
-    .portfolio-card:hover {
-
-    }
-
-    .inner {
-      color: white;
-      font-size: 1.3em;
-      opacity: 0;
-      background-color: #2E3542;
-      padding: 30px 30px;
-      margin: auto;
-    }
-
-
-
-    /*fade in inner layer */
-    .inner:hover {
-      position: absolute;
-      opacity: 100;
-    }
-  #card-bowyer{
-  background: url(../images/bowyer-thumb.png) no-repeat center;
-  }
-  #card-earth-healer{
-  background: url(../images/earth-healer-thumb.png) no-repeat center;
-  }
-  #card-pace{
-  background: url(../images/pace-thumb.png) no-repeat center;
-  }
-
   /*******FOOTER********/
   .icon-social{
     margin-right: 10px;
@@ -1586,20 +1292,176 @@ a:link{
     padding: 150px 0;
     text-align: center;
   }
-
   .cust-footer-content a:visited{
       color: #e8e6e5;
   }
-
   .cust-footer-content a:hover{
       color: #f7f7f7;
   }
-
-
   .foot-copyright{
     padding: 20px;
   }
+  .foot-copyright span{
+    font-size: 1.3em;
+  }
+}
 
+/* #Mobile, Small < 320 -----------------------------------------------------*/
+@media only screen and (max-width: 320px)
+{
+    /* *****************HEADER***************** */
+  #header-wrapper {
+    background-color: #ba5dfc;
+    color: white;
+    padding: 30px 0px;
+  }
+  #header-wrapper a {
+    font-weight: bold;
+    color: white;
+    font-size: 1.1em;
+  }
+  #header-wrapper .active {
+    color: #f5e36e;
+  }
+    /* *****************ABOUT***************** */
+  #intro-container {
+    line-height: 1.4;
+    color: white;
+    background-color: #ba5dfc;
+    text-align: center;
+    padding: 25% 5% ;
+    height: 100%;
+    width: 100%;
+  }
+  #intro-container div{
+    font-size: 1.5em;
+  }
+  #josh {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #f5ed6e;
+  }
+  /* *****************ABOUT***************** */
+  #about-wrapper {
+    font-size: 1.3em;
+    text-align: center;
+    padding: 120px 5% 300px 5%;
+    /* background-color: #5E9AF9; */
+    background-color: #c47af9;
+    color: white;
+  }
+  .abt-title{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 25px;
+  }
+  .abt-text{
+    font-size: 1.1em;
+    margin-bottom: 30px;
+  }
+  .abt-skillTitle{
+    font-size: 1.3em;
+    color: #ba5dfc;
+    font-weight: bold;
+    margin: 15px auto;
+  }
+  .abt-skillList{
+    font-size: 1.1em;
+    list-style-type: none;
+    padding-left: 0px;
+    line-height: 1.75;
+  }
+  /* *****************DETAILS***************** */
+  .details-collumn{
+    text-align: center;
+    border: 0.5px solid #f7f7f7;
+    padding: 5% 2.5%;
+  }
+
+  .details-wrapper{
+    margin-top: -250px;
+    z-index:  100;
+  }
+
+  .icon-wrapper {
+    color: #ba5dfc;
+    font-size: 2.1em;
+    padding: 5%;
+    margin: 0px auto;
+  }
+    .details{
+      background-color: white;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      margin: 5%;
+      border-radius: 25px;
+      box-shadow: 0px 4px #eff2f7;
+    }
+
+  /* *****************PORTFOLIO***************** */
+ .portfolio-container{
+    margin: 0px auto;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+  }
+  .portfolio-card {
+    height: 100%;
+    text-align: center;
+    border-radius: 10px;
+  }
+    .portfolio-card img {
+      max-width: 100%;
+    }
+    /* INNER */
+    .inner {
+      width: 90%;
+      position: absolute;
+      padding: auto 5%;
+      color: white;
+      font-size: 1.1em;
+      opacity: 0;
+      background-color: #2E3542;
+    }
+        .inner:hover {
+          opacity: 100;
+        }
+
+    .portfolio-card-button{
+      margin: auto;
+      margin-top: 15px;
+      text-align: center;
+      width: 150px;
+      height: 35px;
+      border: 3px solid #ba5dfc;
+      border-radius: 10px;
+      font-size: 1.0em;
+      font-weight: bold;
+      color: white;
+    }
+    .portfolio-card-button:hover{
+      background-color:#ba5dfc;
+    }
+  /*******FOOTER********/
+  .icon-social{
+    margin-right: 10px;
+    font-size: 3.0em;
+  }
+  .cust-footer-wrapper{
+    color: #e8e6e5;
+    background-color: #ba5dfc;
+    padding: 150px 0;
+    text-align: center;
+  }
+  .cust-footer-content a:visited{
+      color: #e8e6e5;
+  }
+  .cust-footer-content a:hover{
+      color: #f7f7f7;
+  }
+  .foot-copyright{
+    padding: 20px;
+  }
   .foot-copyright span{
     font-size: 1.3em;
   }
