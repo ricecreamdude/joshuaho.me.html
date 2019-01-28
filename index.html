@@ -175,17 +175,6 @@
       }
     }
 
-    class ReactProjects extends React.Component {
-      render(){
-        return(
-          <section class="portoflio-title-container">
-            <h2>Projects</h2>
-            <p>Here are some of the websites I helped create</p>
-          </section>
-        )
-      }
-    }
-
     class ReactFooter extends React.Component {
       render() {
         return (
@@ -215,11 +204,22 @@
       }
     }
 
+    class ReactProjects extends React.Component {
+      render(){
+        return(
+          <section class="container portfolio-title-container">
+            <h2>Projects</h2>
+            <p>Here are some of the websites I helped create</p>
+          </section>
+        )
+      }
+    }
+
     function portfolioCard(project){
       return(
-        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 portfolio-container">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 container portfolio-container">
           <img class="portfolio-card" src={project.thumbnail}/>
-          <div class="inner portfolio-card">
+          <div class="portfolio-card inner">
             <div> {project.description} </div>
             <a href={project.link} target="_blank">
               <div class="portfolio-card-button">Visit Website</div>
