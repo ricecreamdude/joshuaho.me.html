@@ -50,8 +50,6 @@ a:link{
    background-color:#ba5dfc;
  }
 
-
-
 /* -------------------------------------------------------------------------- */
 /* -----------------------------------Desktop-------------------------------- */
 /* -------------------------------------------------------------------------- */
@@ -178,68 +176,36 @@ a:link{
     }
 
   /* *****************PORTFOLIO***************** */
-  /* .portoflio-title-container{
-    margin: 100px auto 70px auto;
-    text-align: center;
+  .portfolio-title-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
-    .portoflio-title-container h2{
-      font-size: 2.5em;
-    }
-    .portoflio-title-container p{
-      font-size: 1.2em;
-    }
-
+  .portfolio-title-container h2 {
+    font-size: 2.5em;
+  }
+  .portfolio-title-container p {
+    font-size: 1.2em;
+  }
   .portfolio-container{
+    margin-bottom: 40px;
+    height: 262.5px;
+  }
+  .portfolio-card {}
+  .portfolio-card img {}
+  .inner {
+    font-size: 1.3em;
+    width: 92%;
     margin: 0px auto;
-    height: 100%;
-    margin-bottom: 400px;
-    }
-    .portfolio-card-button{
-      margin: auto;
-      margin-top: 20px;
-      width: 150px;
-      height: 40px;
-      border: 3px solid #ba5dfc;
-      border-radius: 10px;
-      font-size: 1.0em;
-      font-weight: bold;
-      color: white;
-    }
-        .portfolio-card-button:hover{
-          background-color:#ba5dfc;
-        }
-    .portfolio-card {
-      width: 100%;
-      height: 230px;
-      text-align: center;
-      border-radius: 10px;
-      float: left;
-      position: absolute;
-    }
-    .portfolio-card:hover {}
-    .inner {
-      position: absolute;
-      color: white;
-      font-size: 1.3em;
-      opacity: 0;
-      background-color: #2E3542;
-      padding: 30px 30px;
-      margin: auto;
-    }
-    .inner:hover {
-      position: absolute;
-      opacity: 100;
-    }
-  #card-bowyer{
-    background: url(../images/bowyer-thumb.png) no-repeat center;
+    padding: 40px 30px;
   }
-  #card-earth-healer{
-    background: url(../images/earth-healer-thumb.png) no-repeat center;
+  .inner:hover {}
+  .portfolio-card-button{
+    margin-top: 30px;
+    width: 160px;
+    height: 40px;
+    font-size: 0.95em;
   }
-  #card-pace{
-    background: url(../images/pace-thumb.png) no-repeat center;
-  } */
-
+  .portfolio-card-button:hover{}
   /*******FOOTER********/
   .icon-social{
     margin-right: 10px;
@@ -390,79 +356,36 @@ a:link{
     }
 
   /* *****************PORTFOLIO***************** */
-  /* .portoflio-title-container{
-    margin: 100px auto 70px auto;
-    text-align: center;
+  .portfolio-title-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
-    .portoflio-title-container h2{
-      font-size: 2.5em;
-    }
-    .portoflio-title-container p{
-      font-size: 1.2em;
-    }
-
+  .portfolio-title-container h2 {
+    font-size: 2.5em;
+  }
+  .portfolio-title-container p {
+    font-size: 1.2em;
+  }
   .portfolio-container{
+    margin-bottom: 40px;
+    height: 217.5px;
+  }
+  .portfolio-card {}
+  .portfolio-card img {}
+  .inner {
+    font-size: 1.1em;
+    width: 91%;
     margin: 0px auto;
-    height: 100%;
-    margin-bottom: 20px;
-    }
-
-    .portfolio-card-button{
-      margin: auto;
-      margin-top: 20px;
-      width: 150px;
-      height: 40px;
-      border: 3px solid #ba5dfc;
-      border-radius: 10px;
-      font-size: 1.0em;
-      font-weight: bold;
-      color: white;
-    }
-
-        .portfolio-card-button:hover{
-          background-color:#ba5dfc;
-        }
-
-    .portfolio-card {
-      width: 100%;
-      height: 230px;
-      text-align: center;
-      border-radius: 10px;
-      float: left;
-
-    }
-
-    .portfolio-card:hover {
-
-    }
-
-
-    .inner {
-      position: absolute;
-      color: white;
-      font-size: 1.3em;
-      opacity: 0;
-      background-color: #2E3542;
-      padding: 30px 30px;
-      margin: auto;
-    }
-
-
-
-
-    .inner:hover {
-      position: absolute;
-      opacity: 100;
-    }
-  #card-bowyer{
-  background: url(../images/bowyer-thumb.png) no-repeat center;
+    padding: 30px 30px;
   }
-  #card-earth-healer{
-  background: url(../images/earth-healer-thumb.png) no-repeat center;
+  .inner:hover {}
+  .portfolio-card-button{
+    margin-top: 15px;
+    width: 160px;
+    height: 40px;
+    font-size: 1.1em;
   }
-  #card-pace{
-  background: url(../images/pace-thumb.png) no-repeat center;
-  } */
+  .portfolio-card-button:hover{}
 
   /*******FOOTER********/
   .icon-social{
@@ -617,70 +540,36 @@ a:link{
     }
 
   /* *****************PORTFOLIO***************** */
-  /* .portoflio-title-container{
-    margin: 100px auto 70px auto;
-    text-align: center;
+  .portfolio-title-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
-    .portoflio-title-container h2{
-      font-size: 2.5em;
-    }
-    .portoflio-title-container p{
-      font-size: 1.2em;
-    }
-
+  .portfolio-title-container h2 {
+    font-size: 2.5em;
+  }
+  .portfolio-title-container p {
+    font-size: 1.2em;
+  }
   .portfolio-container{
+    margin-bottom: 40px;
+    height: 247.5px;
+  }
+  .portfolio-card {}
+  .portfolio-card img {}
+  .inner {
+    font-size: 1.3em;
+    width: 91.5%;
     margin: 0px auto;
-    height: 100%;
-    margin-bottom: 400px;
-    }
-    .portfolio-card-button{
-      margin: auto;
-      margin-top: 20px;
-      width: 150px;
-      height: 40px;
-      border: 3px solid #ba5dfc;
-      border-radius: 10px;
-      font-size: 1.0em;
-      font-weight: bold;
-      color: white;
-    }
-      .portfolio-card-button:hover{
-        background-color:#ba5dfc;
-      }
-
-    .portfolio-card {
-      width: 100%;
-      height: 230px;
-      text-align: center;
-      border-radius: 10px;
-      float: left;
-    }
-
-    .portfolio-card:hover {}
-
-    .inner {
-      position: absolute;
-      color: white;
-      font-size: 1.3em;
-      opacity: 0;
-      background-color: #2E3542;
-      padding: 30px 30px;
-      margin: auto;
-    }
-    .inner:hover {
-      position: absolute;
-      opacity: 100;
-    }
-  #card-bowyer{
-  background: url(../images/bowyer-thumb.png) no-repeat center;
+    padding: 40px 40px;
   }
-  #card-earth-healer{
-  background: url(../images/earth-healer-thumb.png) no-repeat center;
+  .inner:hover {}
+  .portfolio-card-button{
+    margin-top: 15px;
+    width: 160px;
+    height: 40px;
+    font-size: 1.0em;
   }
-  #card-pace{
-  background: url(../images/pace-thumb.png) no-repeat center;
-  } */
-
+  .portfolio-card-button:hover{}
   /*******FOOTER********/
   .icon-social{
     margin-right: 10px;
@@ -835,68 +724,36 @@ a:link{
     }
 
   /* *****************PORTFOLIO***************** */
-  /* .portoflio-title-container{
-    margin: 100px auto 70px auto;
-    text-align: center;
+  .portfolio-title-container {
+    margin-top: 50px;
+    margin-bottom: 80px;
   }
-    .portoflio-title-container h2{
-      font-size: 2.5em;
-    }
-    .portoflio-title-container p{
-      font-size: 1.2em;
-    }
-
+  .portfolio-title-container h2 {
+    font-size: 2.5em;
+  }
+  .portfolio-title-container p {
+    font-size: 1.2em;
+  }
   .portfolio-container{
+    margin-bottom: 40px;
+    height: 296.7px;
+  }
+  .portfolio-card {}
+  .portfolio-card img {}
+  .inner {
+    font-size: 1.3em;
+    width: 93%;
     margin: 0px auto;
-    height: 100%;
-    margin-bottom: 400px;
-    }
-    .portfolio-card-button{
-      margin: auto;
-      margin-top: 20px;
-      width: 150px;
-      height: 40px;
-      border: 3px solid #ba5dfc;
-      border-radius: 10px;
-      font-size: 1.0em;
-      font-weight: bold;
-      color: white;
-    }
-    .portfolio-card-button:hover{
-      background-color:#ba5dfc;
-    }
-
-    .portfolio-card {
-      width: 100%;
-      height: 230px;
-      text-align: center;
-      border-radius: 10px;
-      float: left;
-      position: absolute;
-    }
-    .portfolio-card:hover { }
-    .inner {
-      position: absolute;
-      color: white;
-      font-size: 1.3em;
-      opacity: 0;
-      background-color: #2E3542;
-      padding: 30px 30px;
-      margin: auto;
-    }
-    .inner:hover {
-      position: absolute;
-      opacity: 100;
-    }
-  #card-bowyer{
-  background: url(../images/bowyer-thumb.png) no-repeat center;
+    padding: 80px 40px;
   }
-  #card-earth-healer{
-  background: url(../images/earth-healer-thumb.png) no-repeat center;
+  .inner:hover {}
+  .portfolio-card-button{
+    margin-top: 15px;
+    width: 160px;
+    height: 40px;
+    font-size: 1.0em;
   }
-  #card-pace{
-  background: url(../images/pace-thumb.png) no-repeat center;
-  } */
+  .portfolio-card-button:hover{}
 
   /*******FOOTER********/
   .icon-social{
@@ -1063,10 +920,7 @@ a:link{
     height: 40px;
     font-size: 1.0em;
   }
-  .portfolio-card-button:hover{
-    font-size: 1.0em;
-  }
-
+  .portfolio-card-button:hover{}
   /*******FOOTER********/
   .icon-social{
     margin-right: 10px;
@@ -1206,7 +1060,7 @@ a:link{
   .portfolio-card {}
   .portfolio-card img {}
   .inner {
-    font-size: 1.1em;
+    font-size: 1.3em;
     width: 92%;
     margin: 0px auto;
     padding: 60px 40px;
@@ -1216,11 +1070,9 @@ a:link{
     margin-top: 15px;
     width: 150px;
     height: 35px;
-    font-size: 1.0em;
+    font-size: 0.9em;
   }
-  .portfolio-card-button:hover{
-    font-size: 1.0em;
-  }
+  .portfolio-card-button:hover{}
   /*******FOOTER********/
   .icon-social{
     margin-right: 10px;
@@ -1366,9 +1218,7 @@ a:link{
     height: 35px;
     font-size: 1.0em;
   }
-  .portfolio-card-button:hover{
-    font-size: 1.0em;
-  }
+  .portfolio-card-button:hover{}
   /*******FOOTER********/
   .icon-social{
     margin-right: 10px;
